@@ -43,8 +43,3 @@ private AsyncOperationHandle<GameObject> asyncOperationHandle;
 This project is licensed under the **MIT License**. For more details, please refer to the `LICENSE` file in the repository.
 
 
-private void Awake()
-{
-    loadAssetButton.onClick.AddListener(LoadAsset);
-    releaseAssetButton.onClick.AddListener(ReleaseAsset);
-}
